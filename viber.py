@@ -481,7 +481,7 @@ class JobItilium:
         quote = "\""
         message = message
         message = message.replace('"', '9rypGO')
-        message = message.replace('"', 'd8L4U8')
+        message = message.replace("\", 'd8L4U8')
         data_to_send = """{
                            "data": {
                            "action": "registration",
